@@ -1,4 +1,7 @@
 this is the code for the html.
+
+```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +23,10 @@ this is the code for the html.
   </body>
     <script src="jarvis.js"></script>
     </html>
+ ```
 	this is the code for the css.
-	
-	
-	body{
+```css	
+  body{
   font-family: cursive;
   font-size: 16px;
   padding: 0;
@@ -90,7 +93,10 @@ input:focus, button:focus {
   font-size: 1.5em;
   font-style: italic;
   }
+ ```
   this is the Javascript code.var userInput = document.getElementById('user-input');
+ 
+ ```javascript
 var btn = document.getElementById('respond');
 var chatArea = document.getElementById('chat-area');
 function kill() {
@@ -138,7 +144,7 @@ if (!match) {
   }, 2000);
 }
 });
-
+```
   
   
   
